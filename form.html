@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login and Registration Form</title>
+  </head>
+  <body>
+    <h3>Registration form</h3>
+    <!--Forms are used to collect data from the user
+    eg:sign up/in/help requests/contact me-->
+    <form action="mailto:dantulurikalyani999@gmail.com" method="post">
+       <input type="text" placeholder="username" />
+      <br>
+      <br>
+      <input type="password" placeholder="password" />
+      <br>
+      <br>
+      Select your city 
+      <select name="city" id="" placeholder="Enter your city">
+          <option value="Delhi">Delhi</option>
+          <option value="Hyderabad">Hyderabad</option>
+          <option value="Banglore">Banglore</option>
+          <option value="Mumbai">Mumbai</option>
+          
+      </select>
+      <br>
+      <br>
+      <input type="text" placeholder="education">
+      <br>
+      <br>
+      <h5>select year of study:</h5>
+      <label for="100">
+       <input type="radio" value="1st year" name="engineering" id="100" />1st year
+      </label>
+      <br>
+      <label for="101">
+        <input type="radio" value="2nd year" name="engineering" id="101"/>2nd year
+      </label>
+      <br>
+      <label for="102">
+        <input type="radio" value="3rd year" name="engineering" id="102" />3rd year
+      </label>
+      <br>
+      <label for="103">
+        <input type="radio" value="4th year" name="engineering" id="103"/>4th year
+      </label>
+     <!-- By giving unique id you are allowed to click anywhere
+     By giving same name you can select only one option -->
+      <br>
+      <br>
+      <!--place holder -> if you don't write anything 
+        by default it was written there..it is like background text-->
+      <h5>Any speacial talents : </h5>
+      
+        <label for="">
+         <input type="checkbox" value="singing" name="speacial talents">singing
+     </label>
+     <br>
+     <label for="">
+        <input type="checkbox" value="Dancing" name="speacial talents">Dancing
+    </label>
+    <br>
+    <label for="">
+        <input type="checkbox" value="Drawing" name="speacial talents">Drawing
+    </label>
+    <br>
+    <label for="">
+        <input type="checkbox" value="Acting" name="speacial talents">Acting
+    </label>
+    <br>
+    <label for="">
+        <input type="checkbox" value="other" name="speacial talents">other
+    </label>
+    <br>
+    <br>
+    <textarea name="feedback" id="101" placeholder="Enter your feedback" cols="30" rows="10">feedback</textarea>
+    <br><br>
+    <input type="submit" value="submit">
+    </form>
+  </body>
+</html>
